@@ -15,13 +15,14 @@ def init_logging():
 # Bot
 
 PYAUTOGUI_SLEEP_SECONDS_BETWEEN_CALLS = 1
-START_SLEEP_SECONDS = 10
+START_SLEEP_SECONDS = 3
 
 DO_OPEN_MONKEYS = False
 
-CLICK_ON_MATCHING_CONFIDENCE = 0.9
-WAIT_FOR_MATCHING_CONFIDENCE = 0.9525
-
+#CLICK_ON_MATCHING_CONFIDENCE = 0.9
+#WAIT_FOR_MATCHING_CONFIDENCE = 0.9525
+CLICK_ON_MATCHING_CONFIDENCE = 0.78
+WAIT_FOR_MATCHING_CONFIDENCE = 0.80
 RELOAD_TOWER_COUNTER = 3
 
 CHECK_LEVEL_UP_COUNTER = 30
@@ -64,12 +65,13 @@ TOWER_SUPER_UPGRADE = 'resources/towers/super/upgrade_{}_{}.jpg'
 HERO_SELECTED_OBYN_1 = 'resources/towers/heroes/obyn_1.jpg'
 HERO_SELECTED_OBYN_2 = 'resources/towers/heroes/obyn_2.jpg'
 
-HERO_SELECTED = {'obyn': [HERO_SELECTED_OBYN_1, HERO_SELECTED_OBYN_2]}
+#HERO_SELECTED = {'obyn': [HERO_SELECTED_OBYN_1, HERO_SELECTED_OBYN_2]}
+HERO_SELECTED = {'obyn': [HERO_SELECTED_OBYN_1]}
 
 # Maps
 
 # Dark Castle
-MAPS_DARK_CASTLE = 'resources/maps/dark_castle/map.jpg'
+MAPS_DARK_CASTLE = 'resources/maps/dark_castle/map2.jpg'
 
 MAPS_POS_DARK_CASTLE_INTERSECTION_TOP = 'resources/maps/dark_castle/intersection_top_path.jpg'
 MAPS_POS_DARK_CASTLE_INTERSECTION_BOTTOM = 'resources/maps/dark_castle/intersection_bottom_path.jpg'

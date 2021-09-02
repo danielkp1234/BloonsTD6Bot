@@ -96,6 +96,7 @@ class Bot(metaclass=ABCMeta):
     # Checks
     def _is_present(self, img):
         self._wait_location = pag.locateCenterOnScreen(img, confidence=config.WAIT_FOR_MATCHING_CONFIDENCE)
+        print(self.wait_location)
         return self._wait_location is not None
 
     def _do_checks(self, wait_counter, do_all_checks=True):
